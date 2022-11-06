@@ -6,9 +6,9 @@ int main(){
 		
 		for(j=1;j<=5;j++){
 			if(j<i)
-			printf(" ");
+			printf("  ");
 			else
-			printf("%d",j);
+			printf("%d ",j);
 		}
 		printf("\n");
 }
