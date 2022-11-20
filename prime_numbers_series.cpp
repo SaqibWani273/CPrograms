@@ -11,6 +11,6 @@ int main(){
 				
 		}
 		if(j==i/2+1)
-		printf("%d ",i);
+		printf("%d, ",i);
 	}
 }

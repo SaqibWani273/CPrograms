@@ -17,7 +17,7 @@ int main()
 		
 		
 			}
-			printf("%4d", num);
+			printf("%\d ", num);
 		
 		}
 		printf("\n");

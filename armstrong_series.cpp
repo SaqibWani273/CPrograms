@@ -15,9 +15,10 @@ int main(){
 			digits++;
 		}
 	
-		temp=i;
+	
 		// loop to calculate armstrong sum
-		while(temp)
+
+	for(temp=i;temp!=0;temp/=10)
 		{
 			digitPower=1;   // initially set to 1
 			singleDigit=temp%10; // separates one digit from the number
@@ -25,7 +26,7 @@ int main(){
 			digitPower*=singleDigit; 	
 			
 			armstrongSum+=digitPower;
-			temp/=10;
+		
 		}
 	
 		if(armstrongSum==i)
